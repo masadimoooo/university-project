@@ -5,7 +5,7 @@ import {Script} from "forge-std/Script.sol";
 import {EProp} from "../src/eProp.sol";
 
 contract DeployEProp is Script {
-    string private imageUri = "https://ipfs.io/ipfs/QmVQfqv5YNXL73ypG125BBsooWRiVubF5nm2g9tRtPtyx8";
+    string private imageUri = "https://ipfs.io/ipfs/bafkreifiunseqevb4vlep5up5wrvw7fvosii4ms2jcpjjzkqmiyclgakh4";
 
     function run() external returns (EProp) {
         vm.startBroadcast();
